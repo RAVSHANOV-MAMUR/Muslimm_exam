@@ -1,0 +1,137 @@
+// .header {
+//   position: fixed;
+//   background-color: #FFF;
+  
+//   .container {
+//     display: flex;
+//     align-items: center;
+//     margin-top: -30px;
+//     justify-content: space-around;
+//     gap: 220px;
+//   }
+// }
+
+// .header__need--div {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   gap: 40px;
+// }
+
+// .header__inputs {
+//   display: flex;
+//   align-items: center;
+// }
+
+// .header__info {
+//   display: flex;
+//   align-items: center;
+//   gap: 8px;
+// }
+
+// .header__item {
+//   display: flex;
+//   align-items: center;
+//   gap: 40px;
+// }
+
+// .header__inp {
+//   width: 530px;
+//   border-radius: 22px;
+//   background: rgb(235, 235, 235);
+//   padding-top: 12px;
+//   padding-left: 23px;
+//   padding-bottom: 12px;
+//   border: none;
+// }
+// .header__shape {
+//   margin-left: -30px;
+// }
+
+.header {
+
+  .header__info {
+      display: flex;
+      align-items: center;
+      // justify-content: space-between;
+      // gap: 100px; 
+      position: fixed; 
+      gap: 10px;
+      width: 100%;
+      height: 60px;
+      margin-top: -20px;
+      background-color: #FFFFFF;
+      margin-top: -30px;
+  }
+
+  .need__div {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+  }
+
+  .logo__div {
+      display: flex;
+      align-items: center;
+      // gap: 18px;
+  }
+
+  // .menu__div {
+  //     display: flex;
+  //     align-items: center;
+  //     gap: 50px;
+  // }
+
+  .header__input {
+      width: 730px;
+      height: 44px;
+      background-color: #EBEBEB;
+      border-radius: 30px;
+      border: none;
+      border: 1px solid #EBEBEB;
+      
+      font-family: "Mulish";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;
+      padding-left: 23px;
+
+      // border-radius: 4px;
+  }
+
+  .search {
+      position: absolute;
+      margin-left: -37px;
+      margin-top: 13px;
+      cursor: pointer;
+  }
+
+  .menu__create--video {
+      border: none;
+      border-radius: 4px;
+    //   background-color: darkcyan;
+      color: #000;
+      padding: 10px 20px;
+      // margin-top: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      border-radius: 50%;
+      height: 60px;
+  }
+
+  .header__button {
+      width: 10px;
+      height: 47px;
+      border-radius: 50%;
+  }
+
+  
+}
+
+button {
+  border: none;
+  background-color: #FFF;
+}
+
